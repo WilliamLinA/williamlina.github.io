@@ -32,6 +32,35 @@
     pointer-events: none;
 }
 
+/* Language selector styling */
+select {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+    padding: 8px 12px !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    outline: none !important;
+    margin-bottom: 20px !important;
+}
+
+select:hover {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--link-color) !important;
+}
+
+select:focus {
+    border-color: var(--link-color) !important;
+    box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.2) !important;
+}
+
+select option {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+    padding: 8px !important;
+}
+
 /* Social media icons hover effects */
 .short-about .list-inline li a:hover .fa-circle {
     opacity: 0.8;
