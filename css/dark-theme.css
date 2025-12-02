@@ -1,0 +1,429 @@
+/* Dark Theme Override */
+:root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --bg-tertiary: #3a3a3a;
+    --text-primary: #e4e4e4;
+    --text-secondary: #b8b8b8;
+    --text-tertiary: #888888;
+    --border-color: #404040;
+    --link-color: #64b5f6;
+    --link-hover: #42a5f5;
+    --brand-primary: #64b5f6;
+}
+
+/* Body and main elements */
+body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+}
+
+/* Headers and text */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary) !important;
+}
+
+p, li, span, div {
+    color: var(--text-primary) !important;
+}
+
+/* Links */
+a {
+    color: var(--link-color) !important;
+}
+
+a:hover, a:focus, a:active {
+    color: var(--link-hover) !important;
+}
+
+/* Navigation bar */
+.navbar-custom {
+    background-color: var(--bg-secondary) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav li a {
+    color: var(--text-primary) !important;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .nav li a:hover {
+    color: var(--link-hover) !important;
+}
+
+/* Intro header */
+.intro-header {
+    background-color: var(--bg-secondary) !important;
+}
+
+.intro-header .site-heading h1,
+.intro-header .post-heading h1,
+.intro-header .page-heading h1 {
+    color: var(--text-primary) !important;
+}
+
+.intro-header .site-heading .subheading,
+.intro-header .post-heading .subheading,
+.intro-header .post-heading .meta,
+.intro-header .page-heading .subheading {
+    color: var(--text-secondary) !important;
+}
+
+/* Post container */
+.post-container {
+    background-color: var(--bg-primary) !important;
+}
+
+.post-container hr {
+    border-color: var(--border-color) !important;
+}
+
+/* Sidebar */
+.sidebar-container {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-secondary) !important;
+}
+
+.sidebar-container h5 {
+    color: var(--text-primary) !important;
+}
+
+.sidebar-container h5 a {
+    color: var(--text-primary) !important;
+}
+
+.sidebar-container a {
+    color: var(--text-secondary) !important;
+}
+
+.sidebar-container a:hover,
+.sidebar-container a:active {
+    color: var(--link-hover) !important;
+}
+
+.sidebar-container .tags a {
+    border-color: var(--text-secondary) !important;
+}
+
+.sidebar-container .tags a:hover,
+.sidebar-container .tags a:active {
+    border-color: var(--link-hover) !important;
+    background-color: var(--bg-tertiary) !important;
+}
+
+/* Code blocks */
+pre {
+    background-color: var(--bg-tertiary) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+code {
+    background-color: var(--bg-tertiary) !important;
+    color: #ff7b72 !important;
+}
+
+pre code {
+    color: var(--text-primary) !important;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 5px solid var(--border-color) !important;
+    color: var(--text-secondary) !important;
+    background-color: var(--bg-secondary) !important;
+}
+
+/* Tables */
+table {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+}
+
+table thead {
+    background-color: var(--bg-tertiary) !important;
+}
+
+table tbody tr {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+table tbody tr:hover {
+    background-color: var(--bg-tertiary) !important;
+}
+
+/* Pagination */
+.pager li > a,
+.pager li > span {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--link-hover) !important;
+}
+
+/* Footer */
+footer {
+    background-color: var(--bg-secondary) !important;
+    border-top: 1px solid var(--border-color) !important;
+}
+
+footer .copyright {
+    color: var(--text-secondary) !important;
+}
+
+/* Tags */
+.tag-cloud a {
+    border: 1px solid var(--border-color) !important;
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-secondary) !important;
+}
+
+.tag-cloud a:hover {
+    background-color: var(--bg-tertiary) !important;
+    border-color: var(--link-hover) !important;
+    color: var(--link-hover) !important;
+}
+
+/* Mini about me */
+.short-about {
+    background-color: var(--bg-secondary) !important;
+}
+
+.short-about p {
+    color: var(--text-secondary) !important;
+}
+
+/* Featured tags */
+.featured-tags a {
+    border: 1px solid var(--border-color) !important;
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-secondary) !important;
+}
+
+.featured-tags a:hover {
+    background-color: var(--bg-tertiary) !important;
+    border-color: var(--link-hover) !important;
+    color: var(--link-hover) !important;
+}
+
+/* Comments section */
+#disqus_thread,
+.ds-thread {
+    background-color: var(--bg-secondary) !important;
+}
+
+/* Search and forms */
+input[type="text"],
+input[type="email"],
+input[type="search"],
+textarea {
+    background-color: var(--bg-tertiary) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+    border-color: var(--link-color) !important;
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--bg-tertiary) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.btn:hover {
+    background-color: var(--link-color) !important;
+    border-color: var(--link-color) !important;
+}
+
+/* Well and panels */
+.well,
+.panel {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* Modal */
+.modal-content {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.modal-footer {
+    border-top: 1px solid var(--border-color) !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.dropdown-menu > li > a {
+    color: var(--text-primary) !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: var(--bg-tertiary) !important;
+}
+
+/* Label and badge */
+.label,
+.badge {
+    background-color: var(--bg-tertiary) !important;
+}
+
+/* Alert */
+.alert {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+/* Post preview */
+.post-preview {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.post-preview > a {
+    color: var(--text-primary) !important;
+}
+
+.post-preview > a:hover {
+    color: var(--link-hover) !important;
+}
+
+.post-preview > .post-title {
+    color: var(--text-primary) !important;
+}
+
+.post-preview > .post-subtitle {
+    color: var(--text-secondary) !important;
+}
+
+.post-preview > .post-meta {
+    color: var(--text-tertiary) !important;
+}
+
+/* HR separator */
+hr.small {
+    border-color: var(--border-color) !important;
+}
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bg-tertiary);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--border-color);
+}
+
+/* Selection color */
+::selection {
+    background-color: var(--link-color);
+    color: var(--bg-primary);
+}
+
+::-moz-selection {
+    background-color: var(--link-color);
+    color: var(--bg-primary);
+}
+
+/* Image adjustments for dark theme */
+img {
+    opacity: 0.9;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+/* Fix for white backgrounds */
+.container,
+.container-fluid {
+    background-color: transparent !important;
+}
+
+/* Post content specific styles */
+.post-container a {
+    color: var(--link-color) !important;
+    text-decoration: underline;
+}
+
+.post-container a:hover {
+    color: var(--link-hover) !important;
+}
+
+.post-container h1,
+.post-container h2,
+.post-container h3,
+.post-container h4,
+.post-container h5,
+.post-container h6 {
+    color: var(--text-primary) !important;
+    margin-top: 1.5em;
+}
+
+.post-container ul,
+.post-container ol {
+    color: var(--text-primary) !important;
+}
+
+/* Anchor links */
+.anchorjs-link {
+    color: var(--link-color) !important;
+}
+
+/* Catalog (TOC) */
+.catalog-container {
+    background-color: var(--bg-secondary) !important;
+}
+
+.catalog-body {
+    color: var(--text-secondary) !important;
+}
+
+.catalog-body a {
+    color: var(--text-secondary) !important;
+}
+
+.catalog-body a:hover {
+    color: var(--link-hover) !important;
+}
+
+/* Syntax highlighting adjustments for dark theme */
+.highlight {
+    background-color: var(--bg-tertiary) !important;
+}
+
+/* Override any remaining light backgrounds */
+* {
+    scrollbar-color: var(--bg-tertiary) var(--bg-primary);
+}
