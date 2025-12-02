@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: a1434592960@gmail.com
 description: ""
 keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://williamlina.github.io"    # your host, for absolute URL
+baseurl: ""                              # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -25,14 +25,14 @@ facebook_username:  huxpro
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","vendor","Gemfile","Gemfile.lock"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
-# Gems
+# Plugins
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
