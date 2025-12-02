@@ -13,16 +13,33 @@
 }
 
 /* Custom icon styles */
-.bilibili-icon {
-    font-weight: bold;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.social-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
 }
 
 /* Social media icons hover effects */
 .short-about .list-inline li a:hover .fa-circle {
     opacity: 0.8;
     transition: opacity 0.3s ease;
+}
+
+.short-about .list-inline li a:hover .social-icon {
+    opacity: 0.9;
 }
 
 /* Body and main elements */

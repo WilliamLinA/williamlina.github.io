@@ -11,14 +11,9 @@ baseurl: ""                              # for example, '/blog' if your blog hos
 
 
 # SNS settings
-RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
 github_username:    WilliamLinA
-linkedin_username:  yi-lin-886aa6294 # your-linkedin-username
-bilibili_uid:       24076078 # your-bilibili-uid
-#twitter_username:  huxpro
-facebook_username:  huxpro
+linkedin_username:  yi-lin-886aa6294
+bilibili_uid:       24076078
 
 
 
