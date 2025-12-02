@@ -12,6 +12,19 @@
     --brand-primary: #64b5f6;
 }
 
+/* Custom icon styles */
+.bilibili-icon {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Social media icons hover effects */
+.short-about .list-inline li a:hover .fa-circle {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
 /* Body and main elements */
 body {
     background-color: var(--bg-primary) !important;
